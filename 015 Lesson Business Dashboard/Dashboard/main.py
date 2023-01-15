@@ -51,7 +51,7 @@ if selection== 'Business Snapshot':
     st.markdown('Display data')
     st.table(df.head())
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
 
 
     with col1:
@@ -77,7 +77,7 @@ if selection== 'Business Snapshot':
 
 
 
-    col3, col4 = st.beta_columns(2)
+    col3, col4 = st.columns(2)
 
 
     with col3:
